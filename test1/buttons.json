@@ -1,0 +1,4 @@
+{
+  "bouton1" : { "content": "Voici le Bouton 1", "clicks": 0 },
+  "bouton2" : { "content": "Et ceci est le Bouton 2", "clicks": 0 }
+}

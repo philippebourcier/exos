@@ -1,0 +1,29 @@
+html, body, svg {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+body { background-color: #1d1d1b; }
+svg text{
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+.overlay{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+}
+.divi-lg{
+    width:20px;
+    height:auto;
+    display:inline-block;
+}
+.divi-sm{
+    width:10px;
+    height:auto;
+    display:inline-block;
+}
