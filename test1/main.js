@@ -10,9 +10,13 @@ function update_buttons() {
 
 function init() {
 
+// HERE, WE UPDATE THE CONTENT OF THE 2 BUTTONS
 update_buttons();
 
 // SOME JQUERY CODE FOR THE BUTTONS HERE...
+
+// URL FOR BUTTON1 : /bouton1
+// URL FOR BUTTON2 : /bouton2
 
 // BUTTON1 WHEN CLICKED WILL BECOME : Voici le Bouton 1 (1)
 // BUTTON1 WHEN CLICKED AGAIN WILL BECOME : Voici le Bouton 1 (2)
