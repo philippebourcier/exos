@@ -13,4 +13,4 @@ Depuis les fichiers HTML/JS fournis :
 
 En Python 3.6+ :
 * créer un module avec une classe qui contient au moins 1 fonction :
-** upjson(bouton_ID) : met à jour le fichier JSON en augmentant de 1 le nombre de clicks
+ * upjson(bouton_ID) : met à jour le fichier JSON en augmentant de 1 le nombre de clicks
