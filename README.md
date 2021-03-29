@@ -2,7 +2,7 @@
 
 Exercice de code
 
-#### Test 1
+### Test 1
 
 Pour le test "test1", votre mission, si vous l’acceptez :
 
