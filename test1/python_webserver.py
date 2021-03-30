@@ -9,7 +9,7 @@ listcmd=["bouton1","bouton2"]
 
 class GetHandler(BaseHTTPRequestHandler):
     def do_GET(self):
-        cmd=self.path[1:7]
+        cmd=self.path[1:8]
 	# HERE YOU SHOULD PROBABLY DO SOMETHING WITH cmd
 
         message = cmd+' OK\n'
@@ -20,7 +20,7 @@ class GetHandler(BaseHTTPRequestHandler):
 
 class RouteHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
-        if self.path[1:7] in listcmd:
+        if self.path[1:8] in listcmd:
             return GetHandler.do_GET(self)
         else:
             super(RouteHandler,self).do_GET()
