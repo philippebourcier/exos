@@ -1,6 +1,4 @@
-# exos
-
-Exercice de code
+# Exercices de code
 
 ### Test 1
 
