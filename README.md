@@ -1,4 +1,4 @@
-# Exercices de code
+# Exercices de code (niveau stagiaires/alternants L3)
 
 ### Test 1
 
